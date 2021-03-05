@@ -51,7 +51,7 @@ public class ArrayBackedStack<T> implements SimpleStack<T> {
     if (size == 0) {
       throw new EmptyStackException("Nope nope nope.");
     } else {
-      return elements[size];
+      return elements[size-1];
     }
   }
 
